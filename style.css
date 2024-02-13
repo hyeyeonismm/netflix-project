@@ -55,4 +55,14 @@ body {
     display: flex;
     flex-direction: row;
     gap: 30px;
+    overflow: visible;
+}
+
+.series img {
+    width:160px;
+    height:240px;
+}
+
+.series img:hover {
+    transform: scale(1.2);
 }
